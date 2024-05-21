@@ -1,0 +1,972 @@
+[
+    {
+        "id": 16,
+        "name": "Accesorios",
+        "slug": "accessories",
+        "parent": 0,
+        "description": "Una descripci\u00f3n corta de la categor\u00eda",
+        "display": "default",
+        "image": {
+            "id": 18,
+            "date_created": "2018-11-06T19:47:01",
+            "date_created_gmt": "2018-11-06T19:47:01",
+            "date_modified": "2018-11-06T19:47:01",
+            "date_modified_gmt": "2018-11-06T19:47:01",
+            "src": "https://www.albertobenitoibericos.es/wp-content/uploads/2018/11/accessories.jpg",
+            "name": "Accessories",
+            "alt": ""
+        },
+        "menu_order": 0,
+        "count": 4,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.7 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Accesorios archivos - Alberto Benito Ibericos</title>\n<!-- Aviso solo para el Administrador: esta p\u00e1gina no muestra una meta description porque no la tiene. Haz una de estas dos cosas: escribe una espec\u00edficamente para esta p\u00e1gina o ve al men\u00fa [Yoast SEO - Ajustes] y configura una plantilla. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.albertobenitoibericos.es/categoria-producto/accessories/\" />\n<meta property=\"og:locale\" content=\"es_ES\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Accesorios archivos - Alberto Benito Ibericos\" />\n<meta property=\"og:description\" content=\"Una descripci\u00f3n corta de la categor\u00eda\" />\n<meta property=\"og:url\" content=\"https://www.albertobenitoibericos.es/categoria-producto/accessories/\" />\n<meta property=\"og:site_name\" content=\"Alberto Benito Ibericos\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/accessories/\",\"url\":\"https://www.albertobenitoibericos.es/categoria-producto/accessories/\",\"name\":\"Accesorios archivos - Alberto Benito Ibericos\",\"isPartOf\":{\"@id\":\"https://www.albertobenitoibericos.es/#website\"},\"breadcrumb\":{\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/accessories/#breadcrumb\"},\"inLanguage\":\"es\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/accessories/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Portada\",\"item\":\"https://www.albertobenitoibericos.es/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Accesorios\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://www.albertobenitoibericos.es/#website\",\"url\":\"https://www.albertobenitoibericos.es/\",\"name\":\"Alberto Benito Ibericos\",\"description\":\"Alberto Benito Ib\u00e9ricos\",\"alternateName\":\"Alberto Benito\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://www.albertobenitoibericos.es/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"es\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+        "yoast_head_json": {
+            "title": "Accesorios archivos - Alberto Benito Ibericos",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://www.albertobenitoibericos.es/categoria-producto/accessories/",
+            "og_locale": "es_ES",
+            "og_type": "article",
+            "og_title": "Accesorios archivos - Alberto Benito Ibericos",
+            "og_description": "Una descripci\u00f3n corta de la categor\u00eda",
+            "og_url": "https://www.albertobenitoibericos.es/categoria-producto/accessories/",
+            "og_site_name": "Alberto Benito Ibericos",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/accessories/",
+                        "url": "https://www.albertobenitoibericos.es/categoria-producto/accessories/",
+                        "name": "Accesorios archivos - Alberto Benito Ibericos",
+                        "isPartOf": {
+                            "@id": "https://www.albertobenitoibericos.es/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://www.albertobenitoibericos.es/categoria-producto/accessories/#breadcrumb"
+                        },
+                        "inLanguage": "es"
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/accessories/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Portada",
+                                "item": "https://www.albertobenitoibericos.es/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Accesorios"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://www.albertobenitoibericos.es/#website",
+                        "url": "https://www.albertobenitoibericos.es/",
+                        "name": "Alberto Benito Ibericos",
+                        "description": "Alberto Benito Ib\u00e9ricos",
+                        "alternateName": "Alberto Benito",
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://www.albertobenitoibericos.es/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "es"
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories/16"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 18,
+        "name": "Camisetas",
+        "slug": "tshirts",
+        "parent": 0,
+        "description": "Una descripci\u00f3n corta de la categor\u00eda",
+        "display": "default",
+        "image": {
+            "id": 19,
+            "date_created": "2018-11-06T19:47:01",
+            "date_created_gmt": "2018-11-06T19:47:01",
+            "date_modified": "2018-11-06T19:47:01",
+            "date_modified_gmt": "2018-11-06T19:47:01",
+            "src": "https://www.albertobenitoibericos.es/wp-content/uploads/2018/11/tshirts.jpg",
+            "name": "T-shirts",
+            "alt": ""
+        },
+        "menu_order": 0,
+        "count": 4,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.7 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Camisetas archivos - Alberto Benito Ibericos</title>\n<!-- Aviso solo para el Administrador: esta p\u00e1gina no muestra una meta description porque no la tiene. Haz una de estas dos cosas: escribe una espec\u00edficamente para esta p\u00e1gina o ve al men\u00fa [Yoast SEO - Ajustes] y configura una plantilla. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.albertobenitoibericos.es/categoria-producto/tshirts/\" />\n<meta property=\"og:locale\" content=\"es_ES\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Camisetas archivos - Alberto Benito Ibericos\" />\n<meta property=\"og:description\" content=\"Una descripci\u00f3n corta de la categor\u00eda\" />\n<meta property=\"og:url\" content=\"https://www.albertobenitoibericos.es/categoria-producto/tshirts/\" />\n<meta property=\"og:site_name\" content=\"Alberto Benito Ibericos\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/tshirts/\",\"url\":\"https://www.albertobenitoibericos.es/categoria-producto/tshirts/\",\"name\":\"Camisetas archivos - Alberto Benito Ibericos\",\"isPartOf\":{\"@id\":\"https://www.albertobenitoibericos.es/#website\"},\"breadcrumb\":{\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/tshirts/#breadcrumb\"},\"inLanguage\":\"es\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/tshirts/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Portada\",\"item\":\"https://www.albertobenitoibericos.es/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Camisetas\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://www.albertobenitoibericos.es/#website\",\"url\":\"https://www.albertobenitoibericos.es/\",\"name\":\"Alberto Benito Ibericos\",\"description\":\"Alberto Benito Ib\u00e9ricos\",\"alternateName\":\"Alberto Benito\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://www.albertobenitoibericos.es/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"es\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+        "yoast_head_json": {
+            "title": "Camisetas archivos - Alberto Benito Ibericos",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://www.albertobenitoibericos.es/categoria-producto/tshirts/",
+            "og_locale": "es_ES",
+            "og_type": "article",
+            "og_title": "Camisetas archivos - Alberto Benito Ibericos",
+            "og_description": "Una descripci\u00f3n corta de la categor\u00eda",
+            "og_url": "https://www.albertobenitoibericos.es/categoria-producto/tshirts/",
+            "og_site_name": "Alberto Benito Ibericos",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/tshirts/",
+                        "url": "https://www.albertobenitoibericos.es/categoria-producto/tshirts/",
+                        "name": "Camisetas archivos - Alberto Benito Ibericos",
+                        "isPartOf": {
+                            "@id": "https://www.albertobenitoibericos.es/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://www.albertobenitoibericos.es/categoria-producto/tshirts/#breadcrumb"
+                        },
+                        "inLanguage": "es"
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/tshirts/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Portada",
+                                "item": "https://www.albertobenitoibericos.es/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Camisetas"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://www.albertobenitoibericos.es/#website",
+                        "url": "https://www.albertobenitoibericos.es/",
+                        "name": "Alberto Benito Ibericos",
+                        "description": "Alberto Benito Ib\u00e9ricos",
+                        "alternateName": "Alberto Benito",
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://www.albertobenitoibericos.es/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "es"
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories/18"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 39,
+        "name": "Experiencias",
+        "slug": "experiencias",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 0,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.7 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Experiencias archivos - Alberto Benito Ibericos</title>\n<!-- Aviso solo para el Administrador: esta p\u00e1gina no muestra una meta description porque no la tiene. Haz una de estas dos cosas: escribe una espec\u00edficamente para esta p\u00e1gina o ve al men\u00fa [Yoast SEO - Ajustes] y configura una plantilla. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.albertobenitoibericos.es/categoria-producto/experiencias/\" />\n<meta property=\"og:locale\" content=\"es_ES\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Experiencias archivos - Alberto Benito Ibericos\" />\n<meta property=\"og:url\" content=\"https://www.albertobenitoibericos.es/categoria-producto/experiencias/\" />\n<meta property=\"og:site_name\" content=\"Alberto Benito Ibericos\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/experiencias/\",\"url\":\"https://www.albertobenitoibericos.es/categoria-producto/experiencias/\",\"name\":\"Experiencias archivos - Alberto Benito Ibericos\",\"isPartOf\":{\"@id\":\"https://www.albertobenitoibericos.es/#website\"},\"breadcrumb\":{\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/experiencias/#breadcrumb\"},\"inLanguage\":\"es\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/experiencias/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Portada\",\"item\":\"https://www.albertobenitoibericos.es/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Experiencias\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://www.albertobenitoibericos.es/#website\",\"url\":\"https://www.albertobenitoibericos.es/\",\"name\":\"Alberto Benito Ibericos\",\"description\":\"Alberto Benito Ib\u00e9ricos\",\"alternateName\":\"Alberto Benito\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://www.albertobenitoibericos.es/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"es\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+        "yoast_head_json": {
+            "title": "Experiencias archivos - Alberto Benito Ibericos",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://www.albertobenitoibericos.es/categoria-producto/experiencias/",
+            "og_locale": "es_ES",
+            "og_type": "article",
+            "og_title": "Experiencias archivos - Alberto Benito Ibericos",
+            "og_url": "https://www.albertobenitoibericos.es/categoria-producto/experiencias/",
+            "og_site_name": "Alberto Benito Ibericos",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/experiencias/",
+                        "url": "https://www.albertobenitoibericos.es/categoria-producto/experiencias/",
+                        "name": "Experiencias archivos - Alberto Benito Ibericos",
+                        "isPartOf": {
+                            "@id": "https://www.albertobenitoibericos.es/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://www.albertobenitoibericos.es/categoria-producto/experiencias/#breadcrumb"
+                        },
+                        "inLanguage": "es"
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/experiencias/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Portada",
+                                "item": "https://www.albertobenitoibericos.es/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Experiencias"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://www.albertobenitoibericos.es/#website",
+                        "url": "https://www.albertobenitoibericos.es/",
+                        "name": "Alberto Benito Ibericos",
+                        "description": "Alberto Benito Ib\u00e9ricos",
+                        "alternateName": "Alberto Benito",
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://www.albertobenitoibericos.es/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "es"
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories/39"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 34,
+        "name": "Jamones (enteros)",
+        "slug": "jamones-enteros",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 0,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.7 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Jamones (enteros) archivos - Alberto Benito Ibericos</title>\n<!-- Aviso solo para el Administrador: esta p\u00e1gina no muestra una meta description porque no la tiene. Haz una de estas dos cosas: escribe una espec\u00edficamente para esta p\u00e1gina o ve al men\u00fa [Yoast SEO - Ajustes] y configura una plantilla. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.albertobenitoibericos.es/categoria-producto/jamones-enteros/\" />\n<meta property=\"og:locale\" content=\"es_ES\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Jamones (enteros) archivos - Alberto Benito Ibericos\" />\n<meta property=\"og:url\" content=\"https://www.albertobenitoibericos.es/categoria-producto/jamones-enteros/\" />\n<meta property=\"og:site_name\" content=\"Alberto Benito Ibericos\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/jamones-enteros/\",\"url\":\"https://www.albertobenitoibericos.es/categoria-producto/jamones-enteros/\",\"name\":\"Jamones (enteros) archivos - Alberto Benito Ibericos\",\"isPartOf\":{\"@id\":\"https://www.albertobenitoibericos.es/#website\"},\"breadcrumb\":{\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/jamones-enteros/#breadcrumb\"},\"inLanguage\":\"es\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/jamones-enteros/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Portada\",\"item\":\"https://www.albertobenitoibericos.es/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Jamones (enteros)\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://www.albertobenitoibericos.es/#website\",\"url\":\"https://www.albertobenitoibericos.es/\",\"name\":\"Alberto Benito Ibericos\",\"description\":\"Alberto Benito Ib\u00e9ricos\",\"alternateName\":\"Alberto Benito\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://www.albertobenitoibericos.es/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"es\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+        "yoast_head_json": {
+            "title": "Jamones (enteros) archivos - Alberto Benito Ibericos",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://www.albertobenitoibericos.es/categoria-producto/jamones-enteros/",
+            "og_locale": "es_ES",
+            "og_type": "article",
+            "og_title": "Jamones (enteros) archivos - Alberto Benito Ibericos",
+            "og_url": "https://www.albertobenitoibericos.es/categoria-producto/jamones-enteros/",
+            "og_site_name": "Alberto Benito Ibericos",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/jamones-enteros/",
+                        "url": "https://www.albertobenitoibericos.es/categoria-producto/jamones-enteros/",
+                        "name": "Jamones (enteros) archivos - Alberto Benito Ibericos",
+                        "isPartOf": {
+                            "@id": "https://www.albertobenitoibericos.es/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://www.albertobenitoibericos.es/categoria-producto/jamones-enteros/#breadcrumb"
+                        },
+                        "inLanguage": "es"
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/jamones-enteros/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Portada",
+                                "item": "https://www.albertobenitoibericos.es/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Jamones (enteros)"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://www.albertobenitoibericos.es/#website",
+                        "url": "https://www.albertobenitoibericos.es/",
+                        "name": "Alberto Benito Ibericos",
+                        "description": "Alberto Benito Ib\u00e9ricos",
+                        "alternateName": "Alberto Benito",
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://www.albertobenitoibericos.es/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "es"
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories/34"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 35,
+        "name": "Jamones al corte",
+        "slug": "jamones-corte",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 0,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.7 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Jamones al corte archivos - Alberto Benito Ibericos</title>\n<!-- Aviso solo para el Administrador: esta p\u00e1gina no muestra una meta description porque no la tiene. Haz una de estas dos cosas: escribe una espec\u00edficamente para esta p\u00e1gina o ve al men\u00fa [Yoast SEO - Ajustes] y configura una plantilla. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.albertobenitoibericos.es/categoria-producto/jamones-corte/\" />\n<meta property=\"og:locale\" content=\"es_ES\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Jamones al corte archivos - Alberto Benito Ibericos\" />\n<meta property=\"og:url\" content=\"https://www.albertobenitoibericos.es/categoria-producto/jamones-corte/\" />\n<meta property=\"og:site_name\" content=\"Alberto Benito Ibericos\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/jamones-corte/\",\"url\":\"https://www.albertobenitoibericos.es/categoria-producto/jamones-corte/\",\"name\":\"Jamones al corte archivos - Alberto Benito Ibericos\",\"isPartOf\":{\"@id\":\"https://www.albertobenitoibericos.es/#website\"},\"breadcrumb\":{\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/jamones-corte/#breadcrumb\"},\"inLanguage\":\"es\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/jamones-corte/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Portada\",\"item\":\"https://www.albertobenitoibericos.es/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Jamones al corte\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://www.albertobenitoibericos.es/#website\",\"url\":\"https://www.albertobenitoibericos.es/\",\"name\":\"Alberto Benito Ibericos\",\"description\":\"Alberto Benito Ib\u00e9ricos\",\"alternateName\":\"Alberto Benito\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://www.albertobenitoibericos.es/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"es\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+        "yoast_head_json": {
+            "title": "Jamones al corte archivos - Alberto Benito Ibericos",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://www.albertobenitoibericos.es/categoria-producto/jamones-corte/",
+            "og_locale": "es_ES",
+            "og_type": "article",
+            "og_title": "Jamones al corte archivos - Alberto Benito Ibericos",
+            "og_url": "https://www.albertobenitoibericos.es/categoria-producto/jamones-corte/",
+            "og_site_name": "Alberto Benito Ibericos",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/jamones-corte/",
+                        "url": "https://www.albertobenitoibericos.es/categoria-producto/jamones-corte/",
+                        "name": "Jamones al corte archivos - Alberto Benito Ibericos",
+                        "isPartOf": {
+                            "@id": "https://www.albertobenitoibericos.es/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://www.albertobenitoibericos.es/categoria-producto/jamones-corte/#breadcrumb"
+                        },
+                        "inLanguage": "es"
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/jamones-corte/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Portada",
+                                "item": "https://www.albertobenitoibericos.es/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Jamones al corte"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://www.albertobenitoibericos.es/#website",
+                        "url": "https://www.albertobenitoibericos.es/",
+                        "name": "Alberto Benito Ibericos",
+                        "description": "Alberto Benito Ib\u00e9ricos",
+                        "alternateName": "Alberto Benito",
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://www.albertobenitoibericos.es/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "es"
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories/35"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 37,
+        "name": "Quesos y otros",
+        "slug": "quesos-y-otros",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 0,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.7 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Quesos y otros archivos - Alberto Benito Ibericos</title>\n<!-- Aviso solo para el Administrador: esta p\u00e1gina no muestra una meta description porque no la tiene. Haz una de estas dos cosas: escribe una espec\u00edficamente para esta p\u00e1gina o ve al men\u00fa [Yoast SEO - Ajustes] y configura una plantilla. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.albertobenitoibericos.es/categoria-producto/quesos-y-otros/\" />\n<meta property=\"og:locale\" content=\"es_ES\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Quesos y otros archivos - Alberto Benito Ibericos\" />\n<meta property=\"og:url\" content=\"https://www.albertobenitoibericos.es/categoria-producto/quesos-y-otros/\" />\n<meta property=\"og:site_name\" content=\"Alberto Benito Ibericos\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/quesos-y-otros/\",\"url\":\"https://www.albertobenitoibericos.es/categoria-producto/quesos-y-otros/\",\"name\":\"Quesos y otros archivos - Alberto Benito Ibericos\",\"isPartOf\":{\"@id\":\"https://www.albertobenitoibericos.es/#website\"},\"breadcrumb\":{\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/quesos-y-otros/#breadcrumb\"},\"inLanguage\":\"es\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/quesos-y-otros/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Portada\",\"item\":\"https://www.albertobenitoibericos.es/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Quesos y otros\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://www.albertobenitoibericos.es/#website\",\"url\":\"https://www.albertobenitoibericos.es/\",\"name\":\"Alberto Benito Ibericos\",\"description\":\"Alberto Benito Ib\u00e9ricos\",\"alternateName\":\"Alberto Benito\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://www.albertobenitoibericos.es/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"es\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+        "yoast_head_json": {
+            "title": "Quesos y otros archivos - Alberto Benito Ibericos",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://www.albertobenitoibericos.es/categoria-producto/quesos-y-otros/",
+            "og_locale": "es_ES",
+            "og_type": "article",
+            "og_title": "Quesos y otros archivos - Alberto Benito Ibericos",
+            "og_url": "https://www.albertobenitoibericos.es/categoria-producto/quesos-y-otros/",
+            "og_site_name": "Alberto Benito Ibericos",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/quesos-y-otros/",
+                        "url": "https://www.albertobenitoibericos.es/categoria-producto/quesos-y-otros/",
+                        "name": "Quesos y otros archivos - Alberto Benito Ibericos",
+                        "isPartOf": {
+                            "@id": "https://www.albertobenitoibericos.es/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://www.albertobenitoibericos.es/categoria-producto/quesos-y-otros/#breadcrumb"
+                        },
+                        "inLanguage": "es"
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/quesos-y-otros/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Portada",
+                                "item": "https://www.albertobenitoibericos.es/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Quesos y otros"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://www.albertobenitoibericos.es/#website",
+                        "url": "https://www.albertobenitoibericos.es/",
+                        "name": "Alberto Benito Ibericos",
+                        "description": "Alberto Benito Ib\u00e9ricos",
+                        "alternateName": "Alberto Benito",
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://www.albertobenitoibericos.es/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "es"
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories/37"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 38,
+        "name": "Servicio de corte",
+        "slug": "servicio-corte",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 0,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.7 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Servicio de corte archivos - Alberto Benito Ibericos</title>\n<!-- Aviso solo para el Administrador: esta p\u00e1gina no muestra una meta description porque no la tiene. Haz una de estas dos cosas: escribe una espec\u00edficamente para esta p\u00e1gina o ve al men\u00fa [Yoast SEO - Ajustes] y configura una plantilla. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.albertobenitoibericos.es/categoria-producto/servicio-corte/\" />\n<meta property=\"og:locale\" content=\"es_ES\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Servicio de corte archivos - Alberto Benito Ibericos\" />\n<meta property=\"og:url\" content=\"https://www.albertobenitoibericos.es/categoria-producto/servicio-corte/\" />\n<meta property=\"og:site_name\" content=\"Alberto Benito Ibericos\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/servicio-corte/\",\"url\":\"https://www.albertobenitoibericos.es/categoria-producto/servicio-corte/\",\"name\":\"Servicio de corte archivos - Alberto Benito Ibericos\",\"isPartOf\":{\"@id\":\"https://www.albertobenitoibericos.es/#website\"},\"breadcrumb\":{\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/servicio-corte/#breadcrumb\"},\"inLanguage\":\"es\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/servicio-corte/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Portada\",\"item\":\"https://www.albertobenitoibericos.es/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Servicio de corte\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://www.albertobenitoibericos.es/#website\",\"url\":\"https://www.albertobenitoibericos.es/\",\"name\":\"Alberto Benito Ibericos\",\"description\":\"Alberto Benito Ib\u00e9ricos\",\"alternateName\":\"Alberto Benito\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://www.albertobenitoibericos.es/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"es\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+        "yoast_head_json": {
+            "title": "Servicio de corte archivos - Alberto Benito Ibericos",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://www.albertobenitoibericos.es/categoria-producto/servicio-corte/",
+            "og_locale": "es_ES",
+            "og_type": "article",
+            "og_title": "Servicio de corte archivos - Alberto Benito Ibericos",
+            "og_url": "https://www.albertobenitoibericos.es/categoria-producto/servicio-corte/",
+            "og_site_name": "Alberto Benito Ibericos",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/servicio-corte/",
+                        "url": "https://www.albertobenitoibericos.es/categoria-producto/servicio-corte/",
+                        "name": "Servicio de corte archivos - Alberto Benito Ibericos",
+                        "isPartOf": {
+                            "@id": "https://www.albertobenitoibericos.es/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://www.albertobenitoibericos.es/categoria-producto/servicio-corte/#breadcrumb"
+                        },
+                        "inLanguage": "es"
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/servicio-corte/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Portada",
+                                "item": "https://www.albertobenitoibericos.es/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Servicio de corte"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://www.albertobenitoibericos.es/#website",
+                        "url": "https://www.albertobenitoibericos.es/",
+                        "name": "Alberto Benito Ibericos",
+                        "description": "Alberto Benito Ib\u00e9ricos",
+                        "alternateName": "Alberto Benito",
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://www.albertobenitoibericos.es/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "es"
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories/38"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 15,
+        "name": "Sin categor\u00eda",
+        "slug": "sin-categoria",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 2,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.7 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Sin categor\u00eda archivos - Alberto Benito Ibericos</title>\n<!-- Aviso solo para el Administrador: esta p\u00e1gina no muestra una meta description porque no la tiene. Haz una de estas dos cosas: escribe una espec\u00edficamente para esta p\u00e1gina o ve al men\u00fa [Yoast SEO - Ajustes] y configura una plantilla. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.albertobenitoibericos.es/categoria-producto/sin-categoria/\" />\n<meta property=\"og:locale\" content=\"es_ES\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Sin categor\u00eda archivos - Alberto Benito Ibericos\" />\n<meta property=\"og:url\" content=\"https://www.albertobenitoibericos.es/categoria-producto/sin-categoria/\" />\n<meta property=\"og:site_name\" content=\"Alberto Benito Ibericos\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/sin-categoria/\",\"url\":\"https://www.albertobenitoibericos.es/categoria-producto/sin-categoria/\",\"name\":\"Sin categor\u00eda archivos - Alberto Benito Ibericos\",\"isPartOf\":{\"@id\":\"https://www.albertobenitoibericos.es/#website\"},\"breadcrumb\":{\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/sin-categoria/#breadcrumb\"},\"inLanguage\":\"es\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/sin-categoria/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Portada\",\"item\":\"https://www.albertobenitoibericos.es/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Sin categor\u00eda\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://www.albertobenitoibericos.es/#website\",\"url\":\"https://www.albertobenitoibericos.es/\",\"name\":\"Alberto Benito Ibericos\",\"description\":\"Alberto Benito Ib\u00e9ricos\",\"alternateName\":\"Alberto Benito\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://www.albertobenitoibericos.es/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"es\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+        "yoast_head_json": {
+            "title": "Sin categor\u00eda archivos - Alberto Benito Ibericos",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://www.albertobenitoibericos.es/categoria-producto/sin-categoria/",
+            "og_locale": "es_ES",
+            "og_type": "article",
+            "og_title": "Sin categor\u00eda archivos - Alberto Benito Ibericos",
+            "og_url": "https://www.albertobenitoibericos.es/categoria-producto/sin-categoria/",
+            "og_site_name": "Alberto Benito Ibericos",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/sin-categoria/",
+                        "url": "https://www.albertobenitoibericos.es/categoria-producto/sin-categoria/",
+                        "name": "Sin categor\u00eda archivos - Alberto Benito Ibericos",
+                        "isPartOf": {
+                            "@id": "https://www.albertobenitoibericos.es/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://www.albertobenitoibericos.es/categoria-producto/sin-categoria/#breadcrumb"
+                        },
+                        "inLanguage": "es"
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/sin-categoria/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Portada",
+                                "item": "https://www.albertobenitoibericos.es/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Sin categor\u00eda"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://www.albertobenitoibericos.es/#website",
+                        "url": "https://www.albertobenitoibericos.es/",
+                        "name": "Alberto Benito Ibericos",
+                        "description": "Alberto Benito Ib\u00e9ricos",
+                        "alternateName": "Alberto Benito",
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://www.albertobenitoibericos.es/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "es"
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories/15"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 28,
+        "name": "Speakers",
+        "slug": "speakers",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 12,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.7 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Speakers archivos - Alberto Benito Ibericos</title>\n<!-- Aviso solo para el Administrador: esta p\u00e1gina no muestra una meta description porque no la tiene. Haz una de estas dos cosas: escribe una espec\u00edficamente para esta p\u00e1gina o ve al men\u00fa [Yoast SEO - Ajustes] y configura una plantilla. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.albertobenitoibericos.es/categoria-producto/speakers/\" />\n<meta property=\"og:locale\" content=\"es_ES\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Speakers archivos - Alberto Benito Ibericos\" />\n<meta property=\"og:url\" content=\"https://www.albertobenitoibericos.es/categoria-producto/speakers/\" />\n<meta property=\"og:site_name\" content=\"Alberto Benito Ibericos\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/speakers/\",\"url\":\"https://www.albertobenitoibericos.es/categoria-producto/speakers/\",\"name\":\"Speakers archivos - Alberto Benito Ibericos\",\"isPartOf\":{\"@id\":\"https://www.albertobenitoibericos.es/#website\"},\"breadcrumb\":{\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/speakers/#breadcrumb\"},\"inLanguage\":\"es\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/speakers/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Portada\",\"item\":\"https://www.albertobenitoibericos.es/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Speakers\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://www.albertobenitoibericos.es/#website\",\"url\":\"https://www.albertobenitoibericos.es/\",\"name\":\"Alberto Benito Ibericos\",\"description\":\"Alberto Benito Ib\u00e9ricos\",\"alternateName\":\"Alberto Benito\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://www.albertobenitoibericos.es/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"es\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+        "yoast_head_json": {
+            "title": "Speakers archivos - Alberto Benito Ibericos",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://www.albertobenitoibericos.es/categoria-producto/speakers/",
+            "og_locale": "es_ES",
+            "og_type": "article",
+            "og_title": "Speakers archivos - Alberto Benito Ibericos",
+            "og_url": "https://www.albertobenitoibericos.es/categoria-producto/speakers/",
+            "og_site_name": "Alberto Benito Ibericos",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/speakers/",
+                        "url": "https://www.albertobenitoibericos.es/categoria-producto/speakers/",
+                        "name": "Speakers archivos - Alberto Benito Ibericos",
+                        "isPartOf": {
+                            "@id": "https://www.albertobenitoibericos.es/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://www.albertobenitoibericos.es/categoria-producto/speakers/#breadcrumb"
+                        },
+                        "inLanguage": "es"
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/speakers/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Portada",
+                                "item": "https://www.albertobenitoibericos.es/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Speakers"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://www.albertobenitoibericos.es/#website",
+                        "url": "https://www.albertobenitoibericos.es/",
+                        "name": "Alberto Benito Ibericos",
+                        "description": "Alberto Benito Ib\u00e9ricos",
+                        "alternateName": "Alberto Benito",
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://www.albertobenitoibericos.es/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "es"
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories/28"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "name": "Sudaderas",
+        "slug": "hoodies",
+        "parent": 0,
+        "description": "Una descripci\u00f3n corta de la categor\u00eda",
+        "display": "default",
+        "image": {
+            "id": 20,
+            "date_created": "2018-11-06T19:47:01",
+            "date_created_gmt": "2018-11-06T19:47:01",
+            "date_modified": "2018-11-06T19:47:01",
+            "date_modified_gmt": "2018-11-06T19:47:01",
+            "src": "https://www.albertobenitoibericos.es/wp-content/uploads/2018/11/hoodies.jpg",
+            "name": "Hoodies",
+            "alt": ""
+        },
+        "menu_order": 0,
+        "count": 4,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.7 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Sudaderas archivos - Alberto Benito Ibericos</title>\n<!-- Aviso solo para el Administrador: esta p\u00e1gina no muestra una meta description porque no la tiene. Haz una de estas dos cosas: escribe una espec\u00edficamente para esta p\u00e1gina o ve al men\u00fa [Yoast SEO - Ajustes] y configura una plantilla. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.albertobenitoibericos.es/categoria-producto/hoodies/\" />\n<meta property=\"og:locale\" content=\"es_ES\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Sudaderas archivos - Alberto Benito Ibericos\" />\n<meta property=\"og:description\" content=\"Una descripci\u00f3n corta de la categor\u00eda\" />\n<meta property=\"og:url\" content=\"https://www.albertobenitoibericos.es/categoria-producto/hoodies/\" />\n<meta property=\"og:site_name\" content=\"Alberto Benito Ibericos\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/hoodies/\",\"url\":\"https://www.albertobenitoibericos.es/categoria-producto/hoodies/\",\"name\":\"Sudaderas archivos - Alberto Benito Ibericos\",\"isPartOf\":{\"@id\":\"https://www.albertobenitoibericos.es/#website\"},\"breadcrumb\":{\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/hoodies/#breadcrumb\"},\"inLanguage\":\"es\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.albertobenitoibericos.es/categoria-producto/hoodies/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Portada\",\"item\":\"https://www.albertobenitoibericos.es/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Sudaderas\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://www.albertobenitoibericos.es/#website\",\"url\":\"https://www.albertobenitoibericos.es/\",\"name\":\"Alberto Benito Ibericos\",\"description\":\"Alberto Benito Ib\u00e9ricos\",\"alternateName\":\"Alberto Benito\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://www.albertobenitoibericos.es/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"es\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+        "yoast_head_json": {
+            "title": "Sudaderas archivos - Alberto Benito Ibericos",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://www.albertobenitoibericos.es/categoria-producto/hoodies/",
+            "og_locale": "es_ES",
+            "og_type": "article",
+            "og_title": "Sudaderas archivos - Alberto Benito Ibericos",
+            "og_description": "Una descripci\u00f3n corta de la categor\u00eda",
+            "og_url": "https://www.albertobenitoibericos.es/categoria-producto/hoodies/",
+            "og_site_name": "Alberto Benito Ibericos",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/hoodies/",
+                        "url": "https://www.albertobenitoibericos.es/categoria-producto/hoodies/",
+                        "name": "Sudaderas archivos - Alberto Benito Ibericos",
+                        "isPartOf": {
+                            "@id": "https://www.albertobenitoibericos.es/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://www.albertobenitoibericos.es/categoria-producto/hoodies/#breadcrumb"
+                        },
+                        "inLanguage": "es"
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://www.albertobenitoibericos.es/categoria-producto/hoodies/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Portada",
+                                "item": "https://www.albertobenitoibericos.es/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Sudaderas"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://www.albertobenitoibericos.es/#website",
+                        "url": "https://www.albertobenitoibericos.es/",
+                        "name": "Alberto Benito Ibericos",
+                        "description": "Alberto Benito Ib\u00e9ricos",
+                        "alternateName": "Alberto Benito",
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://www.albertobenitoibericos.es/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "es"
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories/17"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.albertobenitoibericos.es/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    }
+]
