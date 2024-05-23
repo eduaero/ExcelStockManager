@@ -3,6 +3,8 @@ import xlwings as xw
 import glob
 import os
 import json 
+import pandas as pd
+import numpy as np
 
 
 def define_true(value):
@@ -51,21 +53,45 @@ def sign_in(config_dict):
         version = version,
         timeout = timeout,
         query_string_auth = query_string_auth)
-    print(" OK ")
+    # print(" OK ")
     return wcapi
 
+# def all_none(row):
+#     return all(x is None or pd.isna(x) for x in row)
 
-def read_config_from_excel(file_path, sheet_name, range):
+def all_none(row):
+    return np.all(pd.isnull(row), axis = 1)
+
+def read_config_from_excel(file_path, sheet_name, range, type = "dict"):
+
+    # Check if type is valid
+    if type not in ["dict", "df"]:
+        raise ValueError("Invalid type in function read_config_from_excel. Expected 'dict' or 'df'")
+    
     # Open the workbook
     wb = xw.Book(file_path)
     # Select the 'config' sheet
     sheet = wb.sheets[sheet_name]
     # Read the data starting from cell B4
     data_range = sheet.range(range).value
-    # Convert the data to a dictionary
-    config = {row[0]: row[1] for row in data_range}
     # Close the workbook
     wb.close()
+
+    # Convert the data to a dictionary
+    if type == "dict":
+        config = {row[0]: row[1] for row in data_range}
+    else:
+        columns = data_range[0]
+        data = data_range[1:]
+        config = pd.DataFrame(data, columns=columns)
+        config.replace('', None, inplace=True)
+        config.replace('', np.nan, inplace=True)
+        # config.dropna(how='all')
+        
+        if len(config) > 1:
+            bol = all_none(config)
+            config = config[~bol]
+   
     return config
 
 def write_data_to_excel(df, file_path, sheet_name, start_cell):

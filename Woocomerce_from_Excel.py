@@ -4,8 +4,6 @@ import os
 
 curr_path = os.path.dirname(os.path.abspath(__file__))
 Excel = Excel_prods(curr_path)
-Excel.refresh_prod_excel()
+Excel.Excel_execute()
 
-# Read the configuration
 
-print("ok")
