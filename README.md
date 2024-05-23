@@ -4,6 +4,8 @@ StockWooManager is a versatile Python tool designed to streamline product stock 
 
 Connect with Eduardo Tola Losa on LinkedIn and explore the tool's source code on GitHub to unlock a new level of efficiency in managing product stock on WooCommerce.
 
+![logo](https://github.com/eduaero/ExcelStockManager/assets/16412674/3acf3e3d-e2c8-4343-b93d-02b53ca37bda)
+
 ## Table of Contents
 - [Modes of Execution](#modes-of-execution)
 - [Updates and Features](#updates-and-features)
