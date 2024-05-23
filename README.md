@@ -42,7 +42,7 @@ Once you have obtained your WooCommerce API keys, ensure to include them in the 
 By following these instructions and integrating your WooCommerce keys into the Excel configuration, you can effectively leverage ExcelStockManager to manage your product stock on WooCommerce with efficiency and ease.
 ![paste the keyspng](https://github.com/eduaero/ExcelStockManager/assets/16412674/7a51b316-b12f-4336-83a1-bdaeeeb27b60)
 
-[Include video of how to execute iy]
+[https://www.youtube.com/watch?v=j86gCX-CVwk]
 
 ## Usage for Python Users
 
