@@ -31,6 +31,17 @@ In this mode, users can update product details such as prices, stock quantities,
 
 Instructions and information for Excel users who want to leverage the tool without delving into the code details. It should include a step-by-step guide on how to use the tool within Excel.
 
+### Tool configuration 
+Before using ExcelStockManager and configuring the tool to interact with WooCommerce, you will need to generate WooCommerce API keys. These keys are essential for securely connecting and authenticating with your WooCommerce store.
+
+To generate WooCommerce API keys, please refer to the official WooCommerce documentation.
+![get_keys](https://github.com/eduaero/ExcelStockManager/assets/16412674/1a042317-97f0-4ec4-b113-cd08b19828b5)
+
+Once you have obtained your WooCommerce API keys, ensure to include them in the sheet configuration of Excel, preferably in cells highlighted in yellow for easy identification and access during tool setup. This step is crucial for establishing a secure and seamless connection between ExcelStockManager and your WooCommerce store.
+
+By following these instructions and integrating your WooCommerce keys into the Excel configuration, you can effectively leverage ExcelStockManager to manage your product stock on WooCommerce with efficiency and ease.
+![paste the keyspng](https://github.com/eduaero/ExcelStockManager/assets/16412674/7a51b316-b12f-4336-83a1-bdaeeeb27b60)
+
 [Include video of how to execute iy]
 
 ## Usage for Python Users
@@ -38,6 +49,7 @@ Instructions and information for Excel users who want to leverage the tool witho
 More detailed information for Python users on how the tool operates, code structure, and any modifications they can make. This could include how to integrate the tool into existing scripts.
 
 ## Further developments:
-1. Include the issues for which there is an error when uploading a category or a product
-2. Generalize the mode 3 and 4
+1. Include a video explaining the tool
+2.  Include the issues for which there is an error when uploading a category or a product
+3. Generalize the mode 3 and 4
 
