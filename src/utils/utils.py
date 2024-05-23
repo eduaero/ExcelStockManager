@@ -85,9 +85,9 @@ def read_config_from_excel(file_path, sheet_name, range, type = "dict"):
         data = data_range[1:]
         config = pd.DataFrame(data, columns=columns)
         config.replace('', None, inplace=True)
-        config.replace('', np.nan, inplace=True)
+        # config.replace('', np.nan, inplace=True)
         # config.dropna(how='all')
-        
+            
         if len(config) > 1:
             bol = all_none(config)
             config = config[~bol]

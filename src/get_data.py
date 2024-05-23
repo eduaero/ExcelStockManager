@@ -71,17 +71,36 @@ def process_product_df(base_url, data):
     # Delete unnecessary columns
     filtered_data.drop(columns=['Activate', 'Upload'], inplace=True)
     
-    # Handle images - consider multiple image columns (images1, images2, ...)
+    # # Handle images - consider multiple image columns (images1, images2, ...)
+    # for index, row in filtered_data.iterrows():
+    #     images = []
+    #     for col in data.columns:
+    #         if col.startswith('images') and pd.notnull(row[col]):
+    #             img_path = row[col]
+    #             # Check if the image path is complete or relative
+    #             if not (img_path.startswith('http://') or img_path.startswith('https://')):
+    #                 img_path = f"{base_url}/wp-content/uploads/{img_path}"
+    #             images.append({'src': img_path})
+    #     filtered_data.at[index, 'images'] = images if images else None
+
+    # Assuming 'filtered_data' is your DataFrame
+    filtered_data['images'] = None  # Initialize 'images' column
+
     for index, row in filtered_data.iterrows():
         images = []
         for col in data.columns:
             if col.startswith('images') and pd.notnull(row[col]):
                 img_path = row[col]
+
                 # Check if the image path is complete or relative
                 if not (img_path.startswith('http://') or img_path.startswith('https://')):
                     img_path = f"{base_url}/wp-content/uploads/{img_path}"
+
                 images.append({'src': img_path})
-        filtered_data.at[index, 'images'] = images if images else None
+
+        # Modify the 'images' column with image information
+        if images:
+            filtered_data.at[index, 'images'] = images
 
     # Handle attributes - consider multiple attribute columns (attributes1, attributes2, ...)
     for index, row in filtered_data.iterrows():
@@ -112,7 +131,7 @@ def post_new_cat(wcapi, data):
     total = len(data)
     for d in data:
         response = (wcapi.post("products/categories", d).json())
-        category_name = data["name"]
+        category_name = d["name"]
     
         if "id" not in response.keys():
             failed_count = failed_count + 1
@@ -132,7 +151,7 @@ def post_new_product(wcapi, data):
     
     for product in data:
         response = wcapi.post("products", product).json()
-        category_name= data["name"]
+        category_name= product["name"]
         
         if "id" not in response.keys():
             failed_count += 1
@@ -243,6 +262,8 @@ class Excel_prods:
                 update_product_stock(self.wcapi, data_df)
             elif self.mode == 4:
                 update_product_prices(self.wcapi, data_df)
+        elif self.mode == 0:
+            pass
         else:
             print(f"=== ERROR: Unsupported mode: {self.mode}")
 
