@@ -3,6 +3,32 @@ import json
 import pandas as pd
 from src.utils.utils import get_latest_xlsx_file, read_config_from_excel, sign_in, define_true, write_data_to_excel
 from src.utils.prod_description import initialize_tool, center_text
+import re 
+def remove_keys_with_patterns(data):
+    # Define the regex patterns to match keys
+    patterns = [
+        r'image\d+',
+        r'categories_id\d+',
+        r'attributes\d+',
+        r'categories\d+',
+        'SEO_words',
+        'SEO_snippet'
+    ]
+    
+    # Create a regex pattern that combines all the above patterns
+    combined_pattern = re.compile('|'.join(patterns))
+    
+    filtered_list = []
+    
+    for da in data:
+        filtered_data = {k: v for k, v in da.items() if not combined_pattern.match(k)}
+        filtered_list.append(filtered_data)
+    
+    return filtered_list
+
+def save_json(data, out_name = "out"):
+    with open(f"{out_name}.json", 'w') as file:
+        json.dump(data, file, indent=4)
 
 def retrieve_cat_info(data):
 
@@ -71,18 +97,6 @@ def process_product_df(base_url, data):
     # Delete unnecessary columns
     filtered_data.drop(columns=['Activate', 'Upload'], inplace=True)
     
-    # # Handle images - consider multiple image columns (images1, images2, ...)
-    # for index, row in filtered_data.iterrows():
-    #     images = []
-    #     for col in data.columns:
-    #         if col.startswith('images') and pd.notnull(row[col]):
-    #             img_path = row[col]
-    #             # Check if the image path is complete or relative
-    #             if not (img_path.startswith('http://') or img_path.startswith('https://')):
-    #                 img_path = f"{base_url}/wp-content/uploads/{img_path}"
-    #             images.append({'src': img_path})
-    #     filtered_data.at[index, 'images'] = images if images else None
-
     # Assuming 'filtered_data' is your DataFrame
     filtered_data['images'] = None  # Initialize 'images' column
 
@@ -101,6 +115,9 @@ def process_product_df(base_url, data):
         # Modify the 'images' column with image information
         if images:
             filtered_data.at[index, 'images'] = images
+        
+        # if categories:
+        #     filtered_data.at[index, 'categories'] = categories
 
     # Handle attributes - consider multiple attribute columns (attributes1, attributes2, ...)
     for index, row in filtered_data.iterrows():
@@ -116,11 +133,69 @@ def process_product_df(base_url, data):
                     })
         filtered_data.at[index, 'attributes'] = attributes if attributes else None
 
+    # Ensure the 'tax_class' column exists
+    if 'tax_class' not in filtered_data.columns:
+        filtered_data['tax_class'] = None
+
     # Creating JSON data
     products_data = []
     for _, row in filtered_data.iterrows():
         product = {k: v for k, v in row.items() if v is not None}
+
+        ###################
+        categories = []
+        for col in data.columns:
+            if col.startswith('categories_id') and pd.notnull(row[col]):
+                temp = row[col]
+                categories.append({'id': str(temp)})
+
+        meta_data = []
+        if  product["SEO_snippet"] != "":
+            snippet_entry = {
+                    "id": 8125,
+                    "key": "_yoast_wpseo_metadesc",
+                    "value": product['SEO_snippet']
+                }
+            meta_data.append(snippet_entry)
+            
+        if product['SEO_words'] != "":
+            words_entry = {
+                    "id": 8152,
+                    "key": "_yoast_wpseo_focuskw",
+                    "value": product['SEO_words']
+                }
+            meta_data.append(words_entry)
+            meta_data.append([{"id": 7562, "key": "_wp_page_template", "value": "default"},
+                {"id": 8116, "key": "page_product_layout","value": "inherit"
+                },
+                {"id": 8117,"key": "page_product_youtube","value": ""},
+                {"id": 8118,"key": "product_header_transparency","value": "inherit"
+                },
+                {"id": 8119,"key": "product_full_screen_description_meta_box_check","value": "off"
+                },
+                {"id": 8120,"key": "_yoast_wpseo_primary_product_cat","value": ""
+                },
+                # {"id": 8121,"key": "_yoast_wpseo_content_score","value": "90"},
+                # {"id": 8122,"key": "_yoast_wpseo_estimated-reading-time-minutes","value": "2"},
+                {"id": 8123, "key": "_yoast_wpseo_wordproof_timestamp", "value": ""},
+                {"id": 8153, "key": "_yoast_wpseo_linkdex","value": "56"}]
+            )
+            
+        ##########
+
+        if meta_data != []:
+            product["meta_data"] = meta_data
+        
+        product["categories"] = categories
+
+        if isinstance(product["regular_price"], (int, float, complex)):
+            product["regular_price"] = str(product["regular_price"])
+
         products_data.append(product)
+
+
+    # Drop the columns that are not useful
+    #~products_data[0] = remove_keys_with_patterns(products_data[0])
     
     return products_data
 
@@ -151,7 +226,7 @@ def post_new_product(wcapi, data):
     
     for product in data:
         response = wcapi.post("products", product).json()
-        category_name= product["name"]
+        category_name = product["name"]
         
         if "id" not in response.keys():
             failed_count += 1
@@ -334,7 +409,14 @@ class Excel_prods:
         write_data_to_excel(df = self.cat_info, file_path=self.excel_path, sheet_name='cat_info', start_cell='B5')
         print("=== RETRIEVING INFO: information retrieved from products and categories")
 
-    
+        # Retrieve information about the taxes created
+        print(" get_data.py - Please include in the documentation how to include the taxes")
+
+        get_all = self.wcapi.get("").json()
+        taxes = get_all["routes"]["/wc/v3/products"]["endpoints"][0]["args"]["tax_class"]["enum"]
+        taxes_df = pd.DataFrame(taxes, columns=['Tax Classes'])
+        write_data_to_excel(df = taxes_df, file_path = self.excel_path, sheet_name='config_info', start_cell='B5')
+        print("hello")
   
 
     def initialize_config(self):
